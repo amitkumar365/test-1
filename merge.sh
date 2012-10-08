@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 mkdir app/js/master
 find app/js/collections -name "*.js" | xargs cat >app/js/master/collections.js
 find app/js/controllers -name "*.js" | xargs cat >app/js/master/controllers.js
